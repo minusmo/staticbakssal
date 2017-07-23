@@ -1,0 +1,2 @@
+# staticbakssal
+staticpagesofbakssal
