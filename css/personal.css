@@ -1,0 +1,57 @@
+body {
+	background: #ffffff;
+	font-family: 'Fira Sans Extra Condensed', sans-serif;
+}
+
+.jumbotron {
+	margin-top: 15px;
+	border: 5px solid #2196F3;
+	border-radius: 30px;
+	text-align: center;
+}
+.container {
+	border: 8px solid #2196F3;
+	border-radius: 30px;
+	overflow: hidden;
+}
+
+.col-lg-4 {
+	
+}
+
+
+header {
+	font-size: 5em;
+}
+
+
+.thumbnail {
+	border: 5px solid #2196F3;
+	border-radius: 75px;
+	position: relative;
+	left: 75px;
+	width: 150px;
+	height: 150px;
+	overflow: hidden;
+}
+
+img {
+	
+}
+
+.col-lg-8 {
+	position: relative;
+	right: 50px;
+	border: 2px solid #2196F3;
+	border-radius: 30px;
+	text-align: center;
+	font-size: 1.5em;
+}
+
+.footer {
+	text-align: center;
+	font-weight: bold;
+	background: #1565C0;
+	color: white;
+	margin-top: 15px;
+}
