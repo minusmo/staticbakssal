@@ -5,12 +5,13 @@
         <meta http-equiv="x-ua-compatible" content="ie=edge">
         <title>profiles</title>
         <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
       
         <!-- Place favicon.ico in the root directory -->
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 		<link rel="shortcut icon" href="images/13-shortcut.png">
-		<link rel="stylesheet" href="css/bootstrap.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
 		<link type="text/css" rel="stylesheet" href="css/bakssalprofile.css">
         <link rel="stylesheet" href="css/main.css">
 		<link rel="stylesheet" href="css/normalize.css">
@@ -18,6 +19,13 @@
 		<link href="https://fonts.googleapis.com/css?family=Fira+Sans+Extra+Condensed" rel="stylesheet">
 		
 		<script src="js/vendor/jquery-1.12.0.min.js"></script>
+		<script>
+			$(document).ready(function(){
+				$('i').click(function(){
+					$('i').next().slideToggle('slow');
+				});
+			});
+		</script>
     </head>
     <body>
         <!--[if lt IE 8]>
@@ -26,8 +34,8 @@
 
         <!-- Add your site or application content here -->
         <!-- <p>Hello world! This is HTML5 Boilerplate.</p> -->
-	    <div class="container">
-		    <a href='https://groups.google.com/forum/#!forum/bakssal'><h2>게시판</h2></a>
+	    <div class="container" id='forum'>
+		    <a class="btn btn-primary" role="button" href='https://groups.google.com/forum/#!forum/bakssal'><h2>게시판</h2></a>
 	    
 	    </div>
 		    
@@ -36,7 +44,7 @@
 		<div class="container">
 		
 		<div class="row">
-		<div class="col-md-3"><div class="thumbnail"><a href="profiles/dal.html"><img src="images/dal (2).JPG"></a></div class="tumbnail"><p>KyungHoKim<br>Killer, Elder Fetish, Fetish Collector, Dead</p></div>
+		<div class="col-md-3"><div class="thumbnail"><a href="profiles/dal.html"><img src="images/dal (2).JPG"></a></div class="tumbnail"><i class="material-icons">arrow_drop_down_circle</i><p>KyungHoKim<br>Killer, Elder Fetish, Fetish Collector, Dead</p></div>
 		<div class="col-md-3"><div class="thumbnail"><a href="profiles/heugin.html"><img src="images/heugin (2).JPG"></a></div class="tumbnail"><p>MyungJoonKim<br>Nigga, Heavy Smoker, MidGuMang</p></div>
 		<div class="col-md-3"><div class="thumbnail"><a href="profiles/ggyun.html"><img src="images/ggyun (2).JPG"></a></div class="tumbnail"><p>SeongYunKim<br>Frozen,Pro Smoker, Bear, Former Mechang</p></div>
 		<div class="col-md-3"><div class="thumbnail"><a href="profiles/woojae.html"><img src="images/woojae (2).png"></a></div class="tumbnail"><p>WooJaeKim<br>Diamond Spoon, Partisan</p></div>
@@ -82,24 +90,12 @@
 		<div class="footer">Send me your idea about this page!<br>bldolphin96@gmail.com</div>
 
         
-		<script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-<img src="images/ (2).png">.<img src="images/ (2).png">2.0.min.js"><\/script>')</script>
-        
-		<script src="js/bootstrap.min.js"></script>
-		<script src="js/vendor/modernizr-2.8.3.min.js"></script>
-		
-		
 
-        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-        <script>
-            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-            e.src='https://www.google-analytics.com/analytics.js';
-            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-            ga('create','UA-90376709-<img src="images/ (2).png">','auto');ga('send','pageview');
-        </script>
-		
-		
+		<script src="js/vendor/modernizr-2.8.3.min.js"></script>
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+				
     </body>
 </html>

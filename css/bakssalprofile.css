@@ -1,6 +1,6 @@
 
 body {
-	background: #ffffff;
+	background: #FFEE58;
 	font-family: 'Fira Sans Extra Condensed', sans-serif;
 	font-size: 1.2em;
 }
@@ -16,6 +16,16 @@ h2 {
 
 a {
 	color: black;
+}
+
+img {
+	width: 150px;
+	height: 150px;
+	
+}
+
+#forum {
+	
 }
 
 .row {
@@ -54,4 +64,6 @@ p {
 	color: black;
 	text-align: center;
 	font-size: 1em;
+	position: relative;
+
 }
