@@ -1,5 +1,5 @@
 body {
-	background: #ffffff;
+	background: #FFEE58;
 	font-family: 'Fira Sans Extra Condensed', sans-serif;
 }
 
@@ -36,7 +36,8 @@ header {
 }
 
 img {
-	
+	width: 150px;
+	height: 150px;
 }
 
 .col-lg-8 {
