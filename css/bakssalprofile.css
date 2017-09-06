@@ -20,9 +20,20 @@ a {
 	color: black;
 }
 
+<<<<<<< HEAD
 button {
 	width: 10px;
 	height: 10px;
+=======
+img {
+	width: 150px;
+	height: 150px;
+	
+}
+
+#forum {
+	
+>>>>>>> e49421cb13b4a04041fe44f3ec129b14e9bda5eb
 }
 
 .row {
@@ -61,9 +72,14 @@ p {
 	color: black;
 	text-align: center;
 	font-size: 1em;
+<<<<<<< HEAD
 }
 
 img {
 	width: 150px;
 	height: 150px;
+=======
+	position: relative;
+
+>>>>>>> e49421cb13b4a04041fe44f3ec129b14e9bda5eb
 }
