@@ -5,7 +5,12 @@ body {
 	font-size: 1.2em;
 }
 
+<<<<<<< HEAD
 /*img:hover {
+=======
+/*
+img:hover {
+>>>>>>> 529e33747e740897296214f0f28694c7e0e809cf
 	-webkit-transform: scale(1.5,1.5);
 	transform: scale(1.5,1.5);
 }*/
@@ -23,6 +28,7 @@ div article {
 	color: black;
 	font-size: 1em;
 }
+*/
 
 h2 {
 	text-align: center;
@@ -32,6 +38,11 @@ a {
 	color: black;
 }
 
+<<<<<<< HEAD
+button {
+	width: 10px;
+	height: 10px;
+=======
 img {
 	width: 100px;
 	height: 100px;
@@ -40,11 +51,17 @@ img {
 
 #forum {
 	
+>>>>>>> e49421cb13b4a04041fe44f3ec129b14e9bda5eb
 }
 
 .row {
+<<<<<<< HEAD
 	margin-top: 40px;
 	margin-bottom: 40px;
+=======
+	margin-top: 30px;
+	margin-bottom: 30px;
+>>>>>>> 529e33747e740897296214f0f28694c7e0e809cf
 
 }
 
@@ -84,3 +101,21 @@ img {
 	overflow: hidden;
 }
 
+<<<<<<< HEAD
+=======
+p {
+	color: black;
+	text-align: center;
+	font-size: 1em;
+<<<<<<< HEAD
+}
+
+img {
+	width: 150px;
+	height: 150px;
+=======
+	position: relative;
+
+>>>>>>> e49421cb13b4a04041fe44f3ec129b14e9bda5eb
+}
+>>>>>>> 529e33747e740897296214f0f28694c7e0e809cf
