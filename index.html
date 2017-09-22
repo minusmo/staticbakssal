@@ -125,6 +125,9 @@ function checkCookie() {
       $(document).ready(function(){
 				checkCookie();
 				
+				var userlist = getCookie();
+				document.getElementById('userlist').innerHTML = userlist;
+				
         $(function () {
           $('[data-toggle="tooltip"]').tooltip();
         });
@@ -338,11 +341,7 @@ function checkCookie() {
     </div>
     <div class='col' id='rightcon'>
 			<div class='userslist'>
-				<script>
-				var userlist = getCookie();
-				h5.innerhtml = userlist				
-				</script>
-				<h5></h5>
+				<h5 id='userlist'></h5>
 			</div>
       <div class='header'>
         <a href='https://groups.google.com/forum/#!forum/bakssal'><button type="button" class="btn btn-danger">게시판</button></a>
