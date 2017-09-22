@@ -88,7 +88,43 @@
 			window.location = "mobileindex.html";
 		};
 		
+		function setCookie(cname, cvalue, exdays) {
+    var d = new Date();
+    d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
+    var expires = "expires="+d.toUTCString();
+    document.cookie = cname + "=" + cvalue + ";" + "path=/";
+		}
+
+		function getCookie(cname) {
+    var name = cname + "=";
+    var ca = document.cookie.split(';');
+    for(var i = 0; i < ca.length; i++) {
+        var c = ca[i];
+        while (c.charAt(0) == ' ') {
+            c = c.substring(1);
+        }
+        if (c.indexOf(name) == 0) {
+            return c.substring(name.length, c.length);
+        }
+    }
+    return "";
+}
+
+function checkCookie() {
+    var user = getCookie("username");
+    if (user != "") {
+        alert("Welcome again " + user);
+    } else {
+        user = prompt("Please enter your name:", "");
+        if (user != "" && user != null) {
+            setCookie("username", user, 365);
+        }
+    }
+}
+		
       $(document).ready(function(){
+				checkCookie();
+				
         $(function () {
           $('[data-toggle="tooltip"]').tooltip();
         });
@@ -177,7 +213,7 @@
             <h4 class='blockquote text-center'>SeongRyulPark</h4>
           </div>
         </div>
-        <div class='row align-items-center' id='namecard' type="button" data-toggle="popover" data-placement="right" title="JotChan" data-content="Slave, Nigga, Honmono">
+        <div class='row align-items-center' id='namecard' type="button" data-toggle="popover" data-placement="right" title="JotChan" data-content="Slave, Nigga, Honmono, PangKinChan">
           <div class='col-3 col-md-3'>          
             <img src='images/joochanthumb.png' class='img-thumbnail' id='face'>         
           </div>
@@ -301,6 +337,13 @@
                
     </div>
     <div class='col' id='rightcon'>
+			<div class='userslist'>
+				<script>
+				var userlist = getCookie();
+				<h3>document.write(userlist)</h3>
+				
+				</script>
+			</div>
       <div class='header'>
         <a href='https://groups.google.com/forum/#!forum/bakssal'><button type="button" class="btn btn-danger">게시판</button></a>
       </div>
