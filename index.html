@@ -126,7 +126,7 @@ function checkCookie() {
 				checkCookie();
 				
 				var users = document.cookie;
-				var userlist = users.replace(/username=/g, " ");
+				var userlist = users.replace(/username=/g, "/");
 				document.getElementById('userlist').innerHTML = userlist;
 				
         $(function () {
