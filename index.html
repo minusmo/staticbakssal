@@ -125,7 +125,7 @@ function checkCookie() {
       $(document).ready(function(){
 				checkCookie();
 				
-				var userlist = getCookie();
+				var userlist = document.cookie;
 				document.getElementById('userlist').innerHTML = userlist;
 				
         $(function () {
